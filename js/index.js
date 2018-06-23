@@ -38,7 +38,7 @@ $(function() {
 
 					//					
 					tempStr += '<p>';
-					tempStr += res[i].name;
+					tempStr += res[i].name+'  保证金:'+ res[i].value/1e16;
 					tempStr += '</p>';
 					tempStr += '<p>';
 					tempStr += '<small><cite>' + 'DApp提交ID:' + res[i].author + '</cite></small>';
