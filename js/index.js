@@ -97,7 +97,7 @@ $(function() {
 					tempStr += res[i].content;
 					tempStr += '</p>';
 					tempStr += '<p>';
-					tempStr += '<small><cite>' + 'DApp提交ID:' + res[i].author + '保证金:'+ res[i].value +'</cite></small>';
+					tempStr += '<small><cite>' + 'DApp提交ID:' + res[i].author + '  保证金:'+ res[i].value/1e16 +'</cite></small>';
 					tempStr += '<br>';
 					tempStr += '<a class="btn" href="#" id="unMydapp" onclick="unMydapp(';
 					tempStr += res[i].index;
